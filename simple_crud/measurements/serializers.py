@@ -1,6 +1,6 @@
 # TODO: опишите сериализаторы
 from rest_framework import serializers
-from simple_crud.measurements.models import Project, Measurement
+from measurements.models import Project, Measurement
 
 class ProjectSerializer(serializers.ModelSerializer):
     class Meta:

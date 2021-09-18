@@ -1,7 +1,6 @@
 from rest_framework.viewsets import ModelViewSet
-
-from simple_crud.measurements.models import Project, Measurement
-from simple_crud.measurements.serializers import ProjectSerializer, MeasurementSerializer
+from measurements.models import Project, Measurement
+from measurements.serializers import ProjectSerializer, MeasurementSerializer
 
 
 class ProjectViewSet(ModelViewSet):
